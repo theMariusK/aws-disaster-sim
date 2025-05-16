@@ -17,3 +17,8 @@ terraform {
 provider "aws" {
   region = "eu-central-1"
 }
+
+variable "region" {
+  description = "AWS region for resources"
+  type = string
+}
